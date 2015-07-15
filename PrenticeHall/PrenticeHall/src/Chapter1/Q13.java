@@ -12,7 +12,7 @@ package Chapter1;
 public class Q13 {
     public static void main(String[] args)
     {
-        Cramer cr = new Cramer();
+        Line cr = new Line();
         
         cr.cramer(3.4, 50.2, 2.1, 0.55, 44.5, 5.9);
         

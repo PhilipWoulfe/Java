@@ -9,7 +9,7 @@ package Chapter1;
  *
  * @author Phil
  */
-public class Cramer {
+public class Line {
     private double x, y;
     
     public double getX()
