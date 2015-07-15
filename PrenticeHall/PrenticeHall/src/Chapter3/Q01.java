@@ -17,7 +17,7 @@
  * Note that you canuse Math.pow(x, 0.5) to compute 2x. Here are some
  * sample runs.
  */
-package prenticehall.Chapter3;
+package Chapter3;
 
 import java.util.Scanner;
 /**

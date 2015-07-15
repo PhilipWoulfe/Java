@@ -3,20 +3,22 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package prenticehall.Chapter3;
-
-import java.util.Scanner;
+package Chapter1;
 
 /**
  *
  * @author Phil
  */
-public class Q21 {
+public class Q13 {
     public static void main(String[] args)
     {
-        Scanner sc = new Scanner(System.in);
+        Cramer cr = new Cramer();
         
-        // Prompt user for input
-        System.out.print("Enter year: ");
+        cr.cramer(3.4, 50.2, 2.1, 0.55, 44.5, 5.9);
+        
+        double x = cr.getX();
+        double y = cr.getY();
+        
+        System.out.println("x = " + x + "\ny = " + y);
     }
 }

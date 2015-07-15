@@ -1,9 +1,10 @@
 /*
- * To change this license header, choose License Headers in Project Properties.
- * To change this template file, choose Tools | Templates
- * and open the template in the editor.
+ * (Game: add three numbers) The program in Listing 3.1, AdditionQuiz.java, generates
+ * two integers and prompts the user to enter the sum of these two integers.
+ * Revise the program to generate three single-digit integers and prompt the user to
+ * enter the sum of these three integers.
  */
-package prenticehall.Chapter3;
+package Chapter3;
 
 import java.util.Scanner;
 
